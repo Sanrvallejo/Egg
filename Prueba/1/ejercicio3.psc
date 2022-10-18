@@ -1,6 +1,8 @@
 Algoritmo ejercicio3
 	Dimension vector(5)
 	Definir vector,i, num, cont Como Entero
+	Definir c Como Caracter
+	c="Hola"
 	Escribir "Ingrese 5 valores"
 	Para i<-0 Hasta 4 Hacer
 		Leer vector(i)
@@ -19,4 +21,5 @@ Algoritmo ejercicio3
 			FinSi
 		FinSi
 	FinPara
+	Escribir c
 FinAlgoritmo
